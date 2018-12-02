@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Run
+```
+docker-compose up
+bash -c "RBENV_VERSION=2.5.1 /usr/local/bin/rbenv exec ruby ./bin/rails server -b 0.0.0.0 -p 3000 -e development"
+```
